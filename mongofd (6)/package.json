@@ -1,0 +1,23 @@
+{
+  "name": "nodepro",
+  "version": "1.0.0",
+  "description": "table backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "info",
+    "data",
+    "user"
+  ],
+  "author": "lazizbek abdullayev <laizbekabdullayev188@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4"
+  }
+}
